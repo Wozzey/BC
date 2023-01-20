@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         BCH - Loader
+// @name         BCH - Loader DEV
 // @namespace    http://tampermonkey.net/
 // @version      1.0
 // @description  BondageClub-Helper Loader
@@ -20,7 +20,7 @@ setTimeout(
 			let n = document.createElement("script");
 			n.setAttribute("language", "JavaScript");
 			n.setAttribute("crossorigin", "anonymous");
-			n.setAttribute("src", "https://narikonep.github.io/BondageClub-Helper/BCH.user.js?_=" + Date.now());
+			n.setAttribute("src", "https://github.com/Wozzey/BC/BCH.user.js?_=" + Date.now());
 			n.onload = () => n.remove();
 			document.head.appendChild(n);
 		}
