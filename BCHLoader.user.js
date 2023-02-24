@@ -11,7 +11,7 @@
 // @match		 http://localhost:*/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=tampermonkey.net
 // @run-at       document-end
-// @grant        GM_xmlhttpRequest
+// @grant        none
 // ==/UserScript==
 /* jshint esversion: 11 */
 /*jshint -W018 */
