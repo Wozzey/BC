@@ -13,8 +13,9 @@
 // @run-at       document-end
 // @grant        none
 // ==/UserScript==
-/* jshint esversion: 11 */
-/*jshint -W018 */
+
+
+// eslint-disable-next-line no-restricted-globals
 setTimeout(
 	function () {
 			let n = document.createElement("script");
